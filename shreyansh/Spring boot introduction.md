@@ -29,6 +29,34 @@ In spring MVC,request goes to dispatcher servlet and it will decide routing to c
 
 <img width="527" alt="image" src="https://github.com/user-attachments/assets/3cceb4bd-61e6-4ab6-89dc-a2725ba60dc3" />
 
+with MVC,need to add many annoytaion ,dispatcher servlet class
+
+<img width="608" alt="image" src="https://github.com/user-attachments/assets/20a392bc-d2d0-465d-9250-397e74540e78" />
+
+
+<img width="604" alt="image" src="https://github.com/user-attachments/assets/f804cd26-1d9a-406c-a8fe-599858b011f6" />
+
+Now Spring boot solves the challenge of spring MVC in following way
+1) No need to provide a version as starter will automatically take care of it and make sure to pass the parent spring boot version only
+2) <img width="386" alt="image" src="https://github.com/user-attachments/assets/5c0adcbb-fbe4-414a-bd8c-dfc815e70df9" />
+
+3) <img width="644" alt="image" src="https://github.com/user-attachments/assets/59535dd2-d8c5-45a3-847f-6547c4fd747c" /> but if u want to override ,u can write componentscan package
+
+4) <img width="569" alt="image" src="https://github.com/user-attachments/assets/dc78dd10-c132-4898-b4ab-78b14ce7a368" />
+
+5) <img width="568" alt="image" src="https://github.com/user-attachments/assets/c98f7cf2-4638-4578-9b68-03ab253b70b7" />
+
+<img width="611" alt="image" src="https://github.com/user-attachments/assets/3facf40e-b90b-4d87-9aec-28544d22b5f4" />
+
+
+
+
+6) 
+
+
+   
+
+
 
 
 
