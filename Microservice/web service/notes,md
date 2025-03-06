@@ -1,5 +1,86 @@
 devtools- i dont want to restart server evrytime on code changes
 error page is shown by error mvc autoconfiguration
+uri pollution in url and req param versioning
+missue of http header in last two versioning
+caching can be done only on uri versioning coz url is same but not in header and acceptype versioning coz url is same but not header and caching is done based on URL
+API documentation based on header is difficult
 https://github.com/in28minutes/spring-microservices-v3/blob/main/02.restful-web-services/01-step-by-step-changes/v2.md#step-03
+
+Static filotering is filtering across all api
+jsonproperty will change the field name
+jsonignore field2 means field2 is not part of response
+jsonignoreproperties is done on class level
+cturator gives-bb eans endpoint to look for all bean information like scope,dependencies in your application
+health endpoint,http request like count min time and max time similarly mapping endpoint for all rest api information
+spring.jpa.defer-datasource-initialization=true coz to avoid dat.sql to be executed before table s created
+
+
+
+mysqlsh commands
+mysqlsh
+\connect social-media-user@localhost:3306
+\sql
+use social-media-database
+select * from user_details;
+select * from post;
+\quit
+
+
+/pom.xml Modified
+<!-- Use this for Spring Boot 3.1 and higher -->
+<dependency>
+    <groupId>com.mysql</groupId>
+    <artifactId>mysql-connector-j</artifactId>
+</dependency> 
+ 
+<!-- Use this if you are using Spring Boot 3.0 or lower
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+    </dependency> 
+-->
+
+
+/src/main/resources/application.properties Modified
+#spring.datasource.url=jdbc:h2:mem:testdb
+spring.jpa.show-sql=true
+spring.datasource.url=jdbc:mysql://localhost:3306/social-media-database
+spring.datasource.username=social-media-user
+spring.datasource.password=dummypassword
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+
+
+
+Launch MySQL as Docker Container
+docker run --detach --env MYSQL_ROOT_PASSWORD=dummypassword --env MYSQL_USER=social-media-user --env MYSQL_PASSWORD=dummypassword --env MYSQL_DATABASE=social-media-database --name mysql --publish 3306:3306 mysql:8-oracle
+//download docker image and create a container
+docker container ls//see all running container
+by defaiult spring security will authenticate your api so u should add basic authentication in postman 
+for post and put api disable bcdrf coz csrf will impact post and put
+Use mysql-connector-j instead of mysql-connector-java if you are using Spring Boot 3.1 or greater.
+
+
+
+Remember: groupId is a little different (com.mysql instead of mysql)
+
+
+
+Here's a history lesson - https://blogs.oracle.com/mysql/post/mysql-connectorj-has-new-maven-coordinates
+
+
+
+<!-- Use this for Spring Boot 3.1 and higher -->
+<dependency>
+	<groupId>com.mysql</groupId>
+	<artifactId>mysql-connector-j</artifactId>
+</dependency> 
+ 
+<!-- Use this if you are using Spring Boot 3.0 or lower
+	<dependency>
+		<groupId>mysql</groupId>
+		<artifactId>mysql-connector-java</artifactId>
+	</dependency> 
+-->
 
 
