@@ -1,0 +1,1 @@
+In immutable field marked with final if it is initially final order=null ,spring will use reflection and will again inject oredr value coz it is marked wilth autowire so it will break the immutabilirty rule
