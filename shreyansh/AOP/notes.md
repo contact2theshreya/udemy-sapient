@@ -1,3 +1,5 @@
+JDK proxy-created for a  a class if it is implementeng  interface else CGLIB proxy will be created
+
 ![image](https://github.com/user-attachments/assets/d8f3ec84-1a54-41a6-a0e9-975c1f352aad)
 
 
