@@ -14,5 +14,7 @@ grafana tempo-for distributed yracing
 promethus-to collect metrics
 
 In docker compose add all service and migrate it to k8s
+docker compose up -d// to run compose file and mongodb container will start automatically
+
 
 
