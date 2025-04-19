@@ -9,4 +9,28 @@ https://youtu.be/31k6AtW-b3Y
 5.  docker container ls->list all running container and docker container ls -a->list all container
 6.  docker exec <container_name> ls->will run ls command inside container
 8.  <img width="278" alt="image" src="https://github.com/user-attachments/assets/b175b599-c049-4512-9c04-cfcd54eb2442" /> ->with this permanently you are attached to this conatiner as u have run in interactive mode
-9.  
+
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/8ea8fe72-c083-4a9a-b8e5-749e34633ee2" />
+docker network inspect brodge//list all container running inside bridge
+
+9.  run it --network=host <cont_name>//contatiner is atteched to your host machine
+10.  u nnede to expose port in bridge coz those ports resides in docker unlike host network
+11.  --network=none//no internet access to this network
+
+12.  ## create custom network
+13.  <img width="282" alt="image" src="https://github.com/user-attachments/assets/3eeae59f-d80b-4a57-acbb-25e35083c574" />
+Now make a container tony startk in this network
+<img width="335" alt="image" src="https://github.com/user-attachments/assets/c6354803-ce07-4dc0-98a5-acd16a93d6cc" />
+lly create busybox
+Now thhese two container can communicate with each other by name and not ip coz IP can change ,u can do ping tony_stark from the busybox container
+
+Each ciontainer has some memory by defauklt and when container is destroyed it's memory is also destroyed
+so to prevent this we use docker volumes which is permanent storage
+as contatiner are isolateed by default so we cannt share data,but we can mount volume from any container to another container
+ex-macbook desktop folder is moun t to ubuntu container
+
+<img width="319" alt="image" src="https://github.com/user-attachments/assets/facdbfd1-38ae-449b-8302-82acab1aa741" />
+
+u can do ping tony_
+
+
