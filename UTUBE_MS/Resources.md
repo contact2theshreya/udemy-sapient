@@ -14,4 +14,19 @@ https://programmingtechie.com/articles/spring-boot-microservices-tutorial-part-2
 
 In order service-docker/mysql/init.sql has command creatre database order service if not exist
 
+<img width="473" alt="image" src="https://github.com/user-attachments/assets/bcbaf719-c735-4010-9533-94b3ab9385ab" />
+
+@AutoConfigureWireMock(port = 0)--start wiremock server in this random port 
+
+<img width="344" alt="image" src="https://github.com/user-attachments/assets/3c1be614-9bee-475c-b60c-cd1b4e15f1d6" />
+https://programmingtechie.com/articles/spring-boot-microservices-tutorial-part-3
+
+In app.properties of test folder,test cases will pick configuration from that file so add an inventory wiremock url
+Inventory stub indicated whenever inventory irl calls with the given url and http method then return the response
+<img width="541" alt="image" src="https://github.com/user-attachments/assets/b20d1bcd-6b2b-42e3-b6c2-a64a49492236" />
+
+<img width="541" alt="image" src="https://github.com/user-attachments/assets/be7d2a51-1982-4d3a-942c-86684afe6cb7" />
+
+
+
 
