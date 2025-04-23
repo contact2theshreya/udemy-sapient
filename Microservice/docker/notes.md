@@ -33,7 +33,7 @@ ex-macbook desktop folder is moun t to ubuntu container
 
 u can do ping tony_
 <img width="515" alt="image" src="https://github.com/user-attachments/assets/62545ec9-0358-4c9a-ac71-66236d38aded" />
-changes inside test folder will be reflected in abc folder and vice versa
+changes inside test folder will be reflected in abc folder of ubuntu and vice versa
 similar to gitgnore  use dockerignotre uin project tp not include files whily copy commsnd in dockerfile
 
 <img width="308" alt="image" src="https://github.com/user-attachments/assets/c7ec51ff-53ac-477b-8b8e-382b42a4f182" />
