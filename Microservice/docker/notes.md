@@ -39,4 +39,10 @@ similar to gitgnore  use dockerignotre uin project tp not include files whily co
 <img width="308" alt="image" src="https://github.com/user-attachments/assets/c7ec51ff-53ac-477b-8b8e-382b42a4f182" />
 Execte all code below wprkdir inside app folder
 
+## Multi stage build
+Use output of one stage to other
+![Screenshot_20250426_114829](https://github.com/user-attachments/assets/63dbf7d0-581d-4e8d-8abe-ee2680b8c114)
+![Screenshot_20250426_114916](https://github.com/user-attachments/assets/af87e3ea-753c-4d28-be52-248ef8fe370a)
+
+
 
