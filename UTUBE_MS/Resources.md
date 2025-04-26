@@ -26,7 +26,8 @@ Inventory stub indicated whenever inventory irl calls with the given url and htt
 <img width="541" alt="image" src="https://github.com/user-attachments/assets/b20d1bcd-6b2b-42e3-b6c2-a64a49492236" />
 
 <img width="541" alt="image" src="https://github.com/user-attachments/assets/be7d2a51-1982-4d3a-942c-86684afe6cb7" />
+## security
 
-
+https://programmingtechie.com/articles/spring-boot-microservices-tutorial-part-4
 
 
