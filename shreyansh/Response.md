@@ -30,6 +30,14 @@
 
 <img width="654" alt="image" src="https://github.com/user-attachments/assets/f5569140-c7f2-49c8-9b24-55623654f706" />
 
+302 Example
+<img width="452" alt="image" src="https://github.com/user-attachments/assets/5a662a51-4fa3-4295-9f4b-8707d942f234" />
+
+when u call old get user,nrew get user will be called and u get 200 but in postman u turn off automatically redirect then u wont see any resposne and resp status u will see as 301
+409-conflict-in cast of post,patch,delete if some req is in progress and if same reqiuest is fired again then client will be returned with 409
+
+
+
 
 
 
