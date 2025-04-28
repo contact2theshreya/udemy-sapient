@@ -49,6 +49,14 @@ containers actually run on worker node ,min 2 worker node should be ther
 
 <img width="369" alt="image" src="https://github.com/user-attachments/assets/e98110d0-7734-427a-a118-26152fbe4170" />
 
+## https://www.youtube.com/watch?v=XuSQU5Grv1g
+With docker you are able to run single instance of application using docker run command
+with kubectl u can run 1000 instance of application with single command and can scale to 2000
+<img width="498" alt="image" src="https://github.com/user-attachments/assets/4106e705-d94c-4dbc-a1fb-b702e2b28f93" />
+can also do rolling update and then rollback them if required
+With k8s u can define no of state of application running 
+
+
 
 
 
