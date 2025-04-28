@@ -30,4 +30,7 @@ Inventory stub indicated whenever inventory irl calls with the given url and htt
 
 https://programmingtechie.com/articles/spring-boot-microservices-tutorial-part-4
 
+## API Documentation
+https://programmingtechie.com/articles/spring-boot-microservices-tutorial-part-5
+
 
