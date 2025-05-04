@@ -56,6 +56,33 @@ with kubectl u can run 1000 instance of application with single command and can 
 can also do rolling update and then rollback them if required
 With k8s u can define no of state of application running 
 
+<img width="463" alt="image" src="https://github.com/user-attachments/assets/d7043bdb-9474-4774-860b-49c7fa924bdc" />
+
+Node isworker  machine where k8s is installed where container is running,if node fails appl fails so have more than one node 
+cluster is a set of nodes together,if any node is failed then load is shared with other nodes,now who manages all these?
+control plane(master node) manages all worker
+when u install k8s u install 4 component
+1) Api server - FE of k8s,users,management devices,CLI
+2) etcd-k8s store all data here to manage cluster in distriburted key value pair
+3) controller-does actual business to monitor which node is running or crasha nd to bring up/down container
+4) scheduler-distribute work across nodes
+5) on worker node we have kubelet which is agent,it make sure that container are running on node as expected
+6) kube proxy -maintain role on node to commun8cate worker node and container
+7) container runtinme-responsible for running container
+8) <img width="505" alt="image" src="https://github.com/user-attachments/assets/82a6ac7f-ef5c-4cf3-a465-a24654527cae" />
+
+kubectl - command line tool of k8s,cmd to operate cluster
+
+<img width="482" alt="image" src="https://github.com/user-attachments/assets/38685857-0192-4cde-b1b5-fdc7fa3ad3fb" />
+
+<img width="410" alt="image" src="https://github.com/user-attachments/assets/b6571647-7cbd-46f0-808b-161b1b5433b6" />
+
+Aim of k8s is to deploy containe rin machine,it does not deploy container directly to worker node,the containe ris encapsulated into a k87s object known as pods
+
+
+
+
+
 
 
 
