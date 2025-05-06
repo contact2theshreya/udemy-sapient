@@ -77,7 +77,28 @@ kubectl - command line tool of k8s,cmd to operate cluster
 
 <img width="410" alt="image" src="https://github.com/user-attachments/assets/b6571647-7cbd-46f0-808b-161b1b5433b6" />
 
-Aim of k8s is to deploy containe rin machine,it does not deploy container directly to worker node,the containe ris encapsulated into a k87s object known as pods
+Aim of k8s is to deploy containe rin machine,it does not deploy container directly to worker node,the containe ris encapsulated into a k87s object known as pods(single instance of application)
+1 container means 1 pod
+to scale create more pod
+
+# create pod
+kubectl run nginix --image=<image_name> // it will create pod and will deploy nginix container in it,imafe is downladed from docker hub
+This is imperative way to craete object whereas declarative way is to run yaml file with the speciifoication of the object in code repo
+lavel is imp to filetr pod
+
+<img width="401" alt="image" src="https://github.com/user-attachments/assets/37bfe38d-0ce6-450b-aeba-c9c12f237e7d" />
+
+<img width="440" alt="image" src="https://github.com/user-attachments/assets/d247e17a-ccfa-4383-ad17-b8e622bd4abd" />
+
+
+<img width="452" alt="image" src="https://github.com/user-attachments/assets/5d6dfb08-d940-4fa7-b893-3c964ec59afb" />
+
+# get lisr of pods
+kubectl get pods
+
+
+
+
 
 
 
