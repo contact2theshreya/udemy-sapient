@@ -96,6 +96,20 @@ lavel is imp to filetr pod
 # get lisr of pods
 kubectl get pods
 
+## Replica sets(entire cluster)
+Baklance load,availibility,a pod has 1:1 relation with node
+<img width="453" alt="image" src="https://github.com/user-attachments/assets/96768666-1fcd-417e-80f7-08450bf0bf4f" />
+
+<img width="470" alt="image" src="https://github.com/user-attachments/assets/9f3c2bb4-d9a5-4f12-9bd3-d8aba6af74ab" />
+match label says what kind of pod falls under replica
+
+<img width="529" alt="image" src="https://github.com/user-attachments/assets/8c71f10c-36d8-44fd-84c5-616a7c33b7b1" />
+
+Now pods are create dautomatically by replica sets
+42:58
+
+
+
 
 
 
