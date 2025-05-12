@@ -39,6 +39,9 @@ https://programmingtechie.com/articles/spring-boot-microservices-tutorial-part-5
 
 <img width="473" alt="image" src="https://github.com/user-attachments/assets/1d6e68de-663b-4bf3-b882-1e4db8c82125" />
 
+## CKT breaker
+https://programmingtechie.com/articles/spring-boot-microservices-tutorial-part-6
+
 
 
 
