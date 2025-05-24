@@ -106,7 +106,31 @@ match label says what kind of pod falls under replica
 <img width="529" alt="image" src="https://github.com/user-attachments/assets/8c71f10c-36d8-44fd-84c5-616a7c33b7b1" />
 
 Now pods are create dautomatically by replica sets
-42:58
+For replica set to know which pods to monitor create label in pod definirion and use tha in replica set
+<img width="511" alt="image" src="https://github.com/user-attachments/assets/50607ae2-ed28-4b30-ba70-ce70f2873d95" />
+
+<img width="434" alt="image" src="https://github.com/user-attachments/assets/247e538a-98c9-444d-b63f-8bb7bf8a07af" />
+
+## Rolling update
+upgrade one after other,undo update ,
+<img width="254" alt="image" src="https://github.com/user-attachments/assets/47b5559c-ba3b-49fa-a531-d8de8d9260e5" />
+
+<img width="479" alt="image" src="https://github.com/user-attachments/assets/5ed05f8a-ee23-47ba-94f7-a4b28b931160" />
+
+To updatre image after deployment
+<img width="563" alt="image" src="https://github.com/user-attachments/assets/8b1a5c75-aad6-4e2f-b101-c9627ef97811" />
+
+IP address are assigned to pod automatically
+If web server pod want to acees redis they cannot use IP hardoded of redis pod in code coz IP can change if pod crashes or restart so we create service(redis-db) which act as proxy
+<img width="499" alt="image" src="https://github.com/user-attachments/assets/feb38593-761f-428b-b787-45e26a2750f0" />
+
+See from 52:21
+
+
+
+
+
+
 
 
 
