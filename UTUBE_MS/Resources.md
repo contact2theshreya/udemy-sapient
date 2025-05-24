@@ -42,6 +42,9 @@ https://programmingtechie.com/articles/spring-boot-microservices-tutorial-part-5
 ## CKT breaker
 https://programmingtechie.com/articles/spring-boot-microservices-tutorial-part-6
 
+##  Integrating Kafka with Schema Registry
+https://programmingtechie.com/articles/spring-boot-microservices-tutorial-part-8
+
 
 
 
