@@ -124,7 +124,46 @@ IP address are assigned to pod automatically
 If web server pod want to acees redis they cannot use IP hardoded of redis pod in code coz IP can change if pod crashes or restart so we create service(redis-db) which act as proxy
 <img width="499" alt="image" src="https://github.com/user-attachments/assets/feb38593-761f-428b-b787-45e26a2750f0" />
 
-See from 52:21
+## ClusterIp service
+service within cluster example-redis db,not exposed externally
+<img width="605" alt="image" src="https://github.com/user-attachments/assets/f61e7cf8-a31b-4b5a-a250-ca871e6fb404" />
+
+U can link service to the pod using selector
+
+<img width="610" alt="image" src="https://github.com/user-attachments/assets/7f1160af-e294-4a01-939f-89d952310846" />
+
+<img width="607" alt="image" src="https://github.com/user-attachments/assets/ed99762d-4b90-4b97-b8fe-12a3b9d7afc7" />
+
+
+## Nodeport service
+service accesible to user through node port
+
+<img width="601" alt="image" src="https://github.com/user-attachments/assets/b5ab041e-8180-4942-acd1-a3f1fe9213b2" />
+
+<img width="640" alt="image" src="https://github.com/user-attachments/assets/b390aef7-2ede-4788-a2c2-008396efbd93" />
+
+<img width="594" alt="image" src="https://github.com/user-attachments/assets/194c8376-ba46-4b62-9c18-42d4da8ced7d" />
+
+<img width="595" alt="image" src="https://github.com/user-attachments/assets/a68499c1-3d49-4446-8768-dfdacb0ddb39" />
+
+
+## LoadBalancer service
+
+If after scaling we have 3 pod with same name then it automatically forward req in load balanced way to any of the pod using random algo
+
+<img width="1037" alt="image" src="https://github.com/user-attachments/assets/f04c408c-d5ec-4d40-ae6d-22c4f3f03fc8" />
+
+## Microservice
+<img width="595" alt="image" src="https://github.com/user-attachments/assets/bb1b478f-476f-4535-85a6-d43b6d87adc8" />
+
+<img width="646" alt="image" src="https://github.com/user-attachments/assets/a0dc2fbc-677a-4e70-88fd-46e88d16b146" />
+
+1:07:22
+
+
+
+
+
 
 
 
