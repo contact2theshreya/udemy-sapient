@@ -43,9 +43,36 @@ Cascade delete is diff than orphan removal coz in cascade delete we delete paren
 
 <img width="461" alt="image" src="https://github.com/user-attachments/assets/13ce946e-f947-4567-84b3-667d990d028f" />
 
+Many to one bidirectional is same as one to many bidirectional
+
 <img width="638" alt="image" src="https://github.com/user-attachments/assets/aba194c3-a297-4a0c-8a24-78e1a21256b1" />
 
 <img width="669" alt="image" src="https://github.com/user-attachments/assets/82ea740e-c15d-43de-a270-2b13bd72e9db" />
+
+<img width="739" alt="image" src="https://github.com/user-attachments/assets/5b8e7dcb-e980-41c4-afdf-3671a4c00d74" />
+
+<img width="604" alt="image" src="https://github.com/user-attachments/assets/212bf0e3-af9d-4a81-8636-043e17b3e2a8" />
+
+<img width="641" alt="image" src="https://github.com/user-attachments/assets/1b7230e0-4e6d-488a-bbb6-3daf0d898bdc" />
+
+<img width="685" alt="image" src="https://github.com/user-attachments/assets/8ecdacfa-10bf-429e-af6f-f2f80102f697" />
+
+<img width="635" alt="image" src="https://github.com/user-attachments/assets/5ae93841-e188-4448-8073-2e96d041d9e6" />
+
+<img width="736" alt="image" src="https://github.com/user-attachments/assets/434ddd90-0ed8-4ef9-b389-652a3baeefbf" />
+
+<img width="686" alt="image" src="https://github.com/user-attachments/assets/6ba2d145-9631-47cf-863d-f5aa61838389" 
+
+  <img width="706" alt="image" src="https://github.com/user-attachments/assets/8a6535c9-d780-4fad-904a-669b1d83c07f" />
+
+
+
+
+
+
+
+
+
 
 
 
