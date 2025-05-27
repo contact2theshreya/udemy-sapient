@@ -61,9 +61,25 @@ Many to one bidirectional is same as one to many bidirectional
 
 <img width="736" alt="image" src="https://github.com/user-attachments/assets/434ddd90-0ed8-4ef9-b389-652a3baeefbf" />
 
-<img width="686" alt="image" src="https://github.com/user-attachments/assets/6ba2d145-9631-47cf-863d-f5aa61838389" 
+<img width="648" alt="image" src="https://github.com/user-attachments/assets/54219d11-e658-4cf3-b846-6a1d51bf6287" />
+
 
   <img width="706" alt="image" src="https://github.com/user-attachments/assets/8a6535c9-d780-4fad-904a-669b1d83c07f" />
+  
+  <img width="683" alt="image" src="https://github.com/user-attachments/assets/9bb4a547-5ec8-4a8b-8448-a090502a8937" />
+
+  <img width="664" alt="image" src="https://github.com/user-attachments/assets/90da011e-fef5-499b-9e7c-acfae6141380" />
+
+  <img width="747" alt="image" src="https://github.com/user-attachments/assets/2f66c63b-4461-495d-948e-f7dab7b71cee" />
+
+  <img width="734" alt="image" src="https://github.com/user-attachments/assets/3d9a1211-4065-4988-ab92-1d720aaef4b1" />
+
+  <img width="735" alt="image" src="https://github.com/user-attachments/assets/e3b1a965-06e8-45df-8781-a031d655094a" />
+
+
+
+
+
 
 
 
