@@ -45,6 +45,9 @@ https://programmingtechie.com/articles/spring-boot-microservices-tutorial-part-6
 ##  Integrating Kafka with Schema Registry
 https://programmingtechie.com/articles/spring-boot-microservices-tutorial-part-8
 
+## Observability with Grafana Stack
+https://programmingtechie.com/articles/spring-boot3-observability-grafana-stack
+
 
 
 
