@@ -76,6 +76,9 @@ Many to one bidirectional is same as one to many bidirectional
 
   <img width="735" alt="image" src="https://github.com/user-attachments/assets/e3b1a965-06e8-45df-8781-a031d655094a" />
 
+  Note
+when in postman u provide order with multiple product then mapping table with FK will be updated automatically  by JPA coz @joinColumn is writtent on Ordertable but in vice versa mapping table logic u have to write when providing product with multiple order coz product table has onlt mappedBy
+
 
 
 
