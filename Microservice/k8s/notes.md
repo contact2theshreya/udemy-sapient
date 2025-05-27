@@ -158,7 +158,27 @@ If after scaling we have 3 pod with same name then it automatically forward req 
 
 <img width="646" alt="image" src="https://github.com/user-attachments/assets/a0dc2fbc-677a-4e70-88fd-46e88d16b146" />
 
-1:07:22
+Link contatiners so that they can be called by each other
+
+<img width="646" alt="image" src="https://github.com/user-attachments/assets/68870547-1c10-481d-9e0f-8ea9666355ac" />
+
+<img width="629" alt="image" src="https://github.com/user-attachments/assets/728f5b1a-e88d-477a-b8d2-086ec5873c14" />
+
+<img width="1078" alt="image" src="https://github.com/user-attachments/assets/89f8272e-0460-4663-b1e4-06dcbbb26954" />
+
+create service for postgresql and redis sot heat they can be accessed by other pods
+
+<img width="1078" alt="image" src="https://github.com/user-attachments/assets/be3e6fb2-8132-4caa-b68d-033ec8eee369" />
+
+<img width="642" alt="image" src="https://github.com/user-attachments/assets/10148bd3-f7c8-4204-9d7c-22a70c15fb92" />
+
+A service is required if we want to expose some of its service to other
+1:18:52
+
+
+
+
+
 
 
 
