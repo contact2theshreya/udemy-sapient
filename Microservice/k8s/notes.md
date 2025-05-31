@@ -173,7 +173,38 @@ create service for postgresql and redis sot heat they can be accessed by other p
 <img width="642" alt="image" src="https://github.com/user-attachments/assets/10148bd3-f7c8-4204-9d7c-22a70c15fb92" />
 
 A service is required if we want to expose some of its service to other
-1:18:52
+
+<img width="842" alt="image" src="https://github.com/user-attachments/assets/72e1feda-25c0-4bac-9a18-49a00e997b7b" />
+
+<img width="524" alt="image" src="https://github.com/user-attachments/assets/7042a6d8-af91-4944-ac38-672524f19e99" />
+
+<img width="566" alt="image" src="https://github.com/user-attachments/assets/b8991936-82e7-4cba-a953-e1c65cbe549e" />
+
+<img width="518" alt="image" src="https://github.com/user-attachments/assets/2807f83e-fa0b-4440-9247-1805f27691bc" />
+
+<img width="520" alt="image" src="https://github.com/user-attachments/assets/1b7644e0-1738-40c2-9efc-fefecbe20bcc" />
+
+
+![image](https://github.com/user-attachments/assets/9097cc07-6043-4b4c-94fd-80e0305e1c8a)
+
+<img width="461" alt="image" src="https://github.com/user-attachments/assets/8021795a-a45b-4733-8fc5-4c62a99f2fdf" />
+
+<img width="483" alt="image" src="https://github.com/user-attachments/assets/4f16db9f-bf23-4845-bd4e-a91967165ac4" />
+
+<img width="434" alt="image" src="https://github.com/user-attachments/assets/6be0b2ad-3d10-464a-8e2b-ef0998cce9b6" />
+
+Add type nodeport in result and vote app service
+
+<img width="210" alt="image" src="https://github.com/user-attachments/assets/3937d71f-304e-4d7f-b350-2dd7ddfcd16c" />
+
+
+
+
+
+
+
+
+
 
 
 
