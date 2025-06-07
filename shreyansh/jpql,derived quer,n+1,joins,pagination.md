@@ -78,6 +78,9 @@ if u are fetching multile parent and each parent has multiple cheild then 1 quer
 
 ## solution 2=batchsize
 
+<img width="452" alt="image" src="https://github.com/user-attachments/assets/48345438-513b-4cfa-b7ad-301d43574c65" />
+
+
 <img width="547" alt="image" src="https://github.com/user-attachments/assets/9bc80321-8050-40d5-9cb2-4e8b7cf5ecca" />
 
 <img width="565" alt="image" src="https://github.com/user-attachments/assets/60b43344-3d38-4338-893e-3b6f41fb1f72" />
