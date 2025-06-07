@@ -197,6 +197,30 @@ Add type nodeport in result and vote app service
 
 <img width="210" alt="image" src="https://github.com/user-attachments/assets/3937d71f-304e-4d7f-b350-2dd7ddfcd16c" />
 
+<img width="610" alt="image" src="https://github.com/user-attachments/assets/d4508bbd-c96f-45d0-8218-94c8323812a9" />
+
+minikube service voting-service --url//will give url of voting service
+
+<img width="645" alt="image" src="https://github.com/user-attachments/assets/e95af47c-5f0e-4c88-90b6-5df6aa5bf647" />
+
+<img width="682" alt="image" src="https://github.com/user-attachments/assets/aa1d132f-c9ad-4d9d-bafc-16da5f16ab38" />
+
+<img width="481" alt="image" src="https://github.com/user-attachments/assets/c3311398-9a6d-4527-bd2e-8b57c4defea6" />
+
+<img width="567" alt="image" src="https://github.com/user-attachments/assets/1247c579-98e2-43d4-b7c2-12dccf66e697" />
+
+similarly with minikube genearte url of all other services
+
+create replicaset ,rollback using deployment file
+
+<img width="532" alt="image" src="https://github.com/user-attachments/assets/1f7c0209-ebb6-491d-ac30-adeaf72bcd32" />
+
+
+
+
+
+
+
 
 
 
