@@ -94,6 +94,17 @@ if u are fetching multile parent and each parent has multiple cheild then 1 quer
 
 <img width="450" alt="image" src="https://github.com/user-attachments/assets/1caf9c63-ec51-47c7-bf55-035f668b5a8d" />
 
+
+on delete and u did select if data in persitent context then if u try seelct agin no DB call will be made
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/9bfe74c0-e3ec-4aaf-b45d-b78f4e4d69c0" />
+
+<img width="425" alt="image" src="https://github.com/user-attachments/assets/52443541-e75f-480f-acc2-9e80f2d779dc" />
+
+Now data is not present in DB and persitent context then isPresent=false
+
+
+
 <img width="423" alt="image" src="https://github.com/user-attachments/assets/45ceb7ac-dc4d-4629-9c29-e48cdd61f9f4" />
 
 <img width="433" alt="image" src="https://github.com/user-attachments/assets/5106aaa7-f487-4ae8-8490-1b9f18ed72a0" />
