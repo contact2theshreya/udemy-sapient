@@ -215,6 +215,66 @@ create replicaset ,rollback using deployment file
 
 <img width="532" alt="image" src="https://github.com/user-attachments/assets/1f7c0209-ebb6-491d-ac30-adeaf72bcd32" />
 
+<img width="298" alt="image" src="https://github.com/user-attachments/assets/c4f414b3-b85f-4f07-b6f3-dff9ce2eaba6" />
+similarly careta postgres/worker,result-deploy.yaml
+
+similarly careta postgres/worker,result-deploy.yaml
+
+<img width="1077" alt="image" src="https://github.com/user-attachments/assets/b2afbb9f-afb9-4c07-9503-614ea1148e9a" />
+
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/2657ac95-38d2-4489-94e3-ff7412bdaabd" />
+
+<img width="638" alt="image" src="https://github.com/user-attachments/assets/bfda2435-3669-4cf5-a7ca-6a0e4db468c4" />
+
+<img width="668" alt="image" src="https://github.com/user-attachments/assets/2ae77b8b-9784-46e5-a0ad-529c41c86075" />
+
+<img width="649" alt="image" src="https://github.com/user-attachments/assets/196f96a8-16f3-4e43-9ce1-86f7d1dab804" />
+
+In Kubernetes (k8s), **Pod**, **Deployment**, and **Service** are fundamental concepts, each serving a distinct purpose:
+
+### 1. **Pod**
+- **Definition**: The smallest deployable unit in Kubernetes. A Pod represents one or more containers that share the same network namespace and storage.
+- **Purpose**: Runs the application container(s) and provides an isolated runtime environment.
+- **Key Features**:
+  - Containers in a Pod share the same IP address and port space.
+  - Typically used to run a single instance of an application.
+  - Pods are ephemeral; if a Pod dies, it is not automatically recreated unless managed by a higher-level controller (e.g., Deployment).
+
+### 2. **Deployment**
+- **Definition**: A Kubernetes resource that manages the lifecycle of Pods, ensuring the desired number of replicas are running and handling updates.
+- **Purpose**: Provides declarative updates for Pods and ReplicaSets.
+- **Key Features**:
+  - Ensures a specified number of Pod replicas are running at all times.
+  - Supports rolling updates and rollbacks.
+  - Automatically replaces failed Pods to maintain the desired state.
+
+### 3. **Service**
+- **Definition**: An abstraction that defines a logical set of Pods and a policy to access them.
+- **Purpose**: Provides stable networking and load balancing for Pods, even if their IP addresses change.
+- **Key Features**:
+  - Exposes Pods to other services or external clients.
+  - Types of Services:
+    - **ClusterIP**: Default; exposes the service within the cluster.
+    - **NodePort**: Exposes the service on a static port on each node.
+    - **LoadBalancer**: Exposes the service externally using a cloud provider's load balancer.
+    - **ExternalName**: Maps the service to an external DNS name.
+
+### Summary Table
+
+| **Component** | **Purpose**                          | **Scope**                  | **Persistence** |
+|---------------|--------------------------------------|----------------------------|-----------------|
+| **Pod**       | Runs container(s)                   | Single instance of an app  | Ephemeral       |
+| **Deployment**| Manages Pods and ensures replicas    | Multiple Pods              | Persistent      |
+| **Service**   | Exposes Pods and provides networking | Cluster or external access | Persistent      |
+
+
+
+
+
+
+
+
+
 
 
 
