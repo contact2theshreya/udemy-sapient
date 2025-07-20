@@ -1,0 +1,26 @@
+<img width="483" height="250" alt="image" src="https://github.com/user-attachments/assets/b645c52c-5bd2-4934-bc8f-1f37899cb090" />
+
+https://gitlab.com/shrayansh8/interviewcodingpractise/-/tree/main/src/main/java/com/conceptandcoding/learningspringboot/OAuth
+
+<img width="584" height="265" alt="image" src="https://github.com/user-attachments/assets/f44b820c-00bd-441b-a0f4-5f2b82390852" />
+
+<img width="346" height="221" alt="image" src="https://github.com/user-attachments/assets/8628d99b-077a-48e8-94c7-5973bd23d704" />
+
+<img width="655" height="352" alt="image" src="https://github.com/user-attachments/assets/eb637044-5a46-4abc-b318-2f0aaebb9ad9" />
+
+dependecy = oauth2-client
+issuer uri - authorizn server
+jwk uri -  where keys public and private are stored
+
+
+<img width="450" height="248" alt="image" src="https://github.com/user-attachments/assets/15b9ccfd-2456-408a-ad61-4d5f00d31e0d" />
+
+<img width="788" height="381" alt="image" src="https://github.com/user-attachments/assets/05233b94-6ca5-482e-b63f-81069faaeba1" />
+
+<img width="471" height="242" alt="image" src="https://github.com/user-attachments/assets/fadf243d-d5fd-4636-9eda-535290d6fff4" />
+
+<img width="508" height="239" alt="image" src="https://github.com/user-attachments/assets/e3a885a7-c89a-4ebd-b6ce-c2ef936a15b2" />
+
+<img width="436" height="214" alt="image" src="https://github.com/user-attachments/assets/428bf8a1-a6c5-428d-8a0c-83ac648d34a0" />
+
+<img width="352" height="125" alt="image" src="https://github.com/user-attachments/assets/edc0b229-2fee-4e43-ac9b-6e8810afc596" />
