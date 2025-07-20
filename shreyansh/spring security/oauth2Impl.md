@@ -56,3 +56,19 @@ jwk uri -  where keys public and private are stored
 <img width="485" height="307" alt="image" src="https://github.com/user-attachments/assets/4e5c0f0c-6111-4420-92dc-c00ff380c63e" />
 
 <img width="671" height="268" alt="image" src="https://github.com/user-attachments/assets/f664aa94-9253-4bb4-8ce5-e3b497a2ecf0" />
+
+Springboot assume that, Oauth2 login will be done on a browser, so by-default it creates SESSION. 
+
+<img width="646" height="251" alt="image" src="https://github.com/user-attachments/assets/72e97065-b030-448c-a4dd-bc1fe98d9bfa" />
+
+<img width="548" height="275" alt="image" src="https://github.com/user-attachments/assets/bad86df6-19bd-4e03-b3fb-d4d40cdf48e5" />
+
+<img width="631" height="323" alt="image" src="https://github.com/user-attachments/assets/35f7a23c-9e14-4c1f-b145-45592f0011bc" />
+
+<img width="459" height="335" alt="image" src="https://github.com/user-attachments/assets/d1cd77a7-764f-47e0-b0ae-0b4f2137055a" />
+
+<img width="476" height="264" alt="image" src="https://github.com/user-attachments/assets/2d0c8fca-838f-4404-bff1-5e449a14f156" />
+
+<img width="497" height="293" alt="image" src="https://github.com/user-attachments/assets/adbd8efd-2532-4cf3-ade5-35514c32f8b7" />
+
+
