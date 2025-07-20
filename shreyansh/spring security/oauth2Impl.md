@@ -24,3 +24,13 @@ jwk uri -  where keys public and private are stored
 <img width="436" height="214" alt="image" src="https://github.com/user-attachments/assets/428bf8a1-a6c5-428d-8a0c-83ac648d34a0" />
 
 <img width="352" height="125" alt="image" src="https://github.com/user-attachments/assets/edc0b229-2fee-4e43-ac9b-6e8810afc596" />
+
+<img width="454" height="217" alt="image" src="https://github.com/user-attachments/assets/e19141f3-2a4c-4531-b2ce-51c548b1a033" />
+
+<img width="479" height="84" alt="image" src="https://github.com/user-attachments/assets/2e776999-a78a-4a1c-bd32-1724a699657d" />
+
+<img width="559" height="282" alt="image" src="https://github.com/user-attachments/assets/97cd1c09-f777-41e8-b171-d92a628be44a" />
+
+<img width="428" height="188" alt="image" src="https://github.com/user-attachments/assets/0fcce663-262d-43b9-8dd2-65eaa9133514" />
+
+<img width="474" height="259" alt="image" src="https://github.com/user-attachments/assets/170773fe-96e2-4301-b2d2-674e0611ee59" />
