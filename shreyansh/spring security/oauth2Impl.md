@@ -71,4 +71,18 @@ Springboot assume that, Oauth2 login will be done on a browser, so by-default it
 
 <img width="497" height="293" alt="image" src="https://github.com/user-attachments/assets/adbd8efd-2532-4cf3-ade5-35514c32f8b7" />
 
+<img width="641" height="357" alt="image" src="https://github.com/user-attachments/assets/cbb3da01-1b8f-4f17-ac02-5fff2d699a75" />
 
+<img width="613" height="221" alt="image" src="https://github.com/user-attachments/assets/4e1bfc29-9a48-40e6-969d-94f25e27e9e8" />
+
+<img width="650" height="212" alt="image" src="https://github.com/user-attachments/assets/cfa7435d-07a3-4fb1-9df4-e82eb103e96e" />
+
+<img width="645" height="302" alt="image" src="https://github.com/user-attachments/assets/af8a6ae2-6091-47c1-8f43-611be4460297" />
+
+<img width="640" height="316" alt="image" src="https://github.com/user-attachments/assets/b692b1a0-a846-4a87-a55f-fd2b04a7065a" />
+
+<img width="611" height="367" alt="image" src="https://github.com/user-attachments/assets/c4f1fc9b-4eb4-4d04-ac17-40e707da0483" />
+
+<img width="641" height="356" alt="image" src="https://github.com/user-attachments/assets/b991275d-9fce-4a3c-8937-d2f59f84590a" />
+
+<img width="521" height="367" alt="image" src="https://github.com/user-attachments/assets/082d84a7-eecb-491f-893a-6320bbc48656" />
