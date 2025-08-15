@@ -53,3 +53,7 @@ Lecture ser
 
 
 <img width="524" height="209" alt="image" src="https://github.com/user-attachments/assets/38cf5b57-9133-4b29-907b-bd1fb1a3cbbd" />
+
+## Loasbalancer
+
+<img width="792" height="413" alt="image" src="https://github.com/user-attachments/assets/cb87330f-e868-48d9-b362-6e2fd280511f" />
