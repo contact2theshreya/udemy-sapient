@@ -42,3 +42,21 @@ With flatmap – [pno1,pno2]
 
 
 <img width="452" height="255" alt="image" src="https://github.com/user-attachments/assets/f0af2929-94fb-4e7f-8021-478a66400a65" />
+
+# optional
+
+<img width="325" height="94" alt="image" src="https://github.com/user-attachments/assets/af3dc185-d71a-49c7-8cdf-7aea0bb649d4" />
+
+In of() it will do a null check and if null found then it will throw NPE<img width="468" height="50" alt="image" src="https://github.com/user-attachments/assets/6bf132b6-2979-4290-91ac-af0c6d9d1fb5" />
+
+<img width="452" height="176" alt="image" src="https://github.com/user-attachments/assets/5027a4e6-88f6-41cc-86d3-dda81f1dac7d" />
+
+No such value present exception  in .get() if no email found<img width="468" height="25" alt="image" src="https://github.com/user-attachments/assets/a66544d6-50bc-404b-b71a-7659c5076b28" />
+
+<img width="414" height="108" alt="image" src="https://github.com/user-attachments/assets/c2725c82-27da-47dc-8745-d61bdf1c3443" />
+
+
+So use orelse
+<img width="468" height="75" alt="image" src="https://github.com/user-attachments/assets/25869eca-d644-43ea-858b-2f0a1cc022db" />
+
+<img width="378" height="49" alt="image" src="https://github.com/user-attachments/assets/6238345a-192f-4e71-99cd-823df228c1f6" />
