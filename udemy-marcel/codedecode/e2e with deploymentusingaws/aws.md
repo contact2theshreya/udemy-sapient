@@ -1,0 +1,39 @@
+iaas- provides whole machine to deploy infrastructure even os control is with you
+
+paas- azure u have app service where u can deploy application and it will be managed by azure team
+
+saas- service is given like gmail
+
+EKS - elastic kubernetes service so u can use k8s as underlying infrastructure to deploy application as pods into the cloud and from local u can use kubectl command to interact with cloud 
+application
+
+pods will be deployed on worker node and worker node will be created as ec2 instance
+
+choclatey - package amanger for windows (to install software easily in aws)
+
+kubernetes cli - to use kubectl command
+
+## see PPT  of AWS doc
+
+U need IAM permission to  login from cli to aws using access key
+multiple user can not use same root account so your team member need to use diff so create iam roles for that
+
+[<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/7a0588b0-93f5-46ae-8d8a-1e6527ab85ce" />
+](https://docs.aws.amazon.com/eks/latest/eksctl/creating-and-managing-clusters.html)
+
+u can verify from - kubectl get pods
+
+Chocolatey Installation
+To install Chocolatey, please follow the steps below:
+
+Open your web browser and go to the Chocolatey website: https://chocolatey.org/install.
+
+Follow the instructions provided on the Chocolatey website to install Chocolatey on your system.
+
+
+
+After successfully installing Chocolatey, you can use the following commands to install different CLI tools:
+
+To install AWS CLI, open a command prompt or terminal and type: choco install awscli.
+
+To install EKSctl, open a command prompt or terminal and type: choco install eksctl.
