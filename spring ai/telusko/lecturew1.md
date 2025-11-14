@@ -30,3 +30,9 @@ https://github.com/navinreddy20/SpringAIUdemy/tree/master/SpringAICode_Le_Prompt
 
 https://github.com/navinreddy20/SpringAIUdemy/tree/master/SpringAICode_Le_Implementing_Prompt_Template
 
+https://github.com/navinreddy20/SpringAIUdemy/tree/master/SpringAICode_Le_Embedding_using_Spring_AI
+
+https://github.com/navinreddy20/SpringAIUdemy/tree/master/SpringAICode_Le_Cosine_Similarity_implementation
+
+
+
