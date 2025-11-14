@@ -18,3 +18,15 @@ https://github.com/navinreddy20/SpringAIUdemy/tree/master/SpringAICode_Le_ChatRe
 
 https://github.com/navinreddy20/SpringAIUdemy/tree/master/SpringAICode_Le_ChatClient_Builder
 
+# spring mrmorry advisor
+
+https://github.com/navinreddy20/SpringAIUdemy/tree/master/SpringAICode_Le_Spring_AI_Memory_Advisor
+
+https://github.com/teluskoOrg/ConversationalUI
+
+https://github.com/navinreddy20/SpringAIUdemy/tree/master/SpringAICode_Le_Spring_AI_with_Ollama
+
+https://github.com/navinreddy20/SpringAIUdemy/tree/master/SpringAICode_Le_Prompt_Template
+
+https://github.com/navinreddy20/SpringAIUdemy/tree/master/SpringAICode_Le_Implementing_Prompt_Template
+
