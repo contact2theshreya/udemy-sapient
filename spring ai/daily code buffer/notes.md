@@ -15,5 +15,15 @@ with output converter u can get data in list in your format from AI
 
 <img width="564" height="304" alt="image" src="https://github.com/user-attachments/assets/b8830c00-3a98-491c-a679-616da8904e4e" />
 
+RAG
+Give latest data to open ai and then open ai gives us response
+Crearte vector store and save data in RAG
+Pdf->text->application to convert to vector store
+Add.txt file in resource section
+Add rag modal in advisor and call chatclient based on prompt and RAG data
+ 
+It gave this ans coz we have RAG only for 24-25
+
+<img width="451" height="315" alt="image" src="https://github.com/user-attachments/assets/326aa42b-dde2-482f-be7e-e2a00895830b" />
 
 
