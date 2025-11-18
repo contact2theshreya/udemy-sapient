@@ -1,4 +1,4 @@
-Sure! Let’s go **in-depth into Kubernetes storage concepts** with clear explanations, examples, and best practices for a **developer perspective**.
+[Sure! Let’s go **in-depth into Kubernetes storage concepts** with clear explanations, examples, and best practices for a **developer perspective**.](https://youtu.be/0swOh5C3OVM)
 
 ---
 
