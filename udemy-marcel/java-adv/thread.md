@@ -64,3 +64,137 @@ Important Considerations
 
 •	Object Mutability: While the ThreadLocal variable itself provides thread isolation, the object it holds might be mutable. If that mutable object is somehow leaked to and accessed by other threads, thread safety issues can still arise
 <img width="468" height="648" alt="image" src="https://github.com/user-attachments/assets/d6500c31-efc8-4641-bf91-5ca3a2439c63" />
+
+## Thread-Shreyansh notes extra
+
+In singleton class -bill plough solution -
+
+static inner class is loaded when it is used
+
+With enum – constructors are private and one instance per jvm automatica;lly
+
+With double locking – as  writing will happen to cache so memory issue can be there and singleton can be break coz read will happen from memory so we used volatile as it will read and wr from memory
+
+Reflection breaks singleton by accessing private constructor
+
+ And creating new object using that
+
+<img width="809" height="445" alt="image" src="https://github.com/user-attachments/assets/62d9f8f7-27df-4387-8dfb-e063f5d7594b" />
+
+<img width="940" height="401" alt="image" src="https://github.com/user-attachments/assets/07ac68e8-d539-4941-a27a-4f4b89bb4c67" />
+
+Os scheduler assigns thread to CPU
+
+Machine code is stored in code segment
+Registyer issued to stored intermediate result
+
+On context switching thread will store intermediate data in register
+
+Process 1 and 2 – multitasking(dodnt share resources)
+
+Inside each process – many threads so multithreading_share 
+resources)
+Deamonb tgread – as soon as one of  user theread deads ,deamon thread will get killed
+
+Ex – GC is deamon thread as soon as program ends GC will also stop,autosave is also deamon thread.
+
+<img width="742" height="495" alt="image" src="https://github.com/user-attachments/assets/923e14f6-259f-493f-9634-90d8142f31a9" />
+
+
+
+In above even if producer method is sybchronized if it is being accessed by 2 diif object even if the two object belongs to diff thread they both will enter synchronized block
+
+To solve this we have custom locks
+
+Xclusive lock is wr lock(where u can do both rd and wr)
+Optimistic -no lock acquired
+
+<img width="940" height="473" alt="image" src="https://github.com/user-attachments/assets/cb8b093a-957c-48ee-8867-5b23849f25e3" />
+
+
+
+
+If row version is same as prev then update is done using validate method of stamp else not – optimistic lock coz no unlock is done here it just check only row version
+In custom lock similar to wait and notify u use await() and signal()
+
+With forkjoin pool executor – big task is divided into subtask using fork() and finally they combined to get final result
+Whenever subtask needs to return value then go for recursive task else recursivetaskaction
+Platform threads is wrapper around os thread
+
+No 1:1 mapping between os and vrtual thread so if VT needs to go for I/O then os thread will pick other virtual tread
+Jvm creates only virtal thread with system call so it is fast unlike normal thread where we create os thread
+
+Achieve immutability in builder coz it has no setter
+
+Here’s a clear, concise comparison of virtual threads vs normal (platform) threads, especially as used in Java (Project Loom), but the concepts apply generally.
+________________________________________
+✅ Virtual Thread vs Normal Thread
+1. What They Are
+🧵 Normal Thread (Platform Thread)
+•	A traditional OS-backed thread.
+•	Each thread maps 1:1 to an operating system thread.
+•	Limited in quantity (thousands at most).
+•	Expensive to create and block.
+🫧 Virtual Thread
+•	A lightweight, user-mode thread managed by the JVM—not the OS.
+•	Many virtual threads can run on a small pool of carrier (platform) threads.
+•	You can create millions cheaply.
+•	Blocking is inexpensive; JVM parks the virtual thread instead of blocking an OS thread.
+________________________________________
+✅ 2. Key Differences
+Feature	Virtual Thread	Normal Thread (Platform)
+Backed by OS thread?	❌ No (user-mode)	✅ Yes
+Creation cost	Very low (cheap, fast)	High
+Blocking cost	Very cheap (JVM parks it)	Expensive (blocks OS thread)
+Use case	High-concurrency tasks (e.g., servers)	CPU-bound or low-concurrency tasks
+Max count	Millions	Thousands
+Scheduling	Managed by JVM	Managed by OS
+Performance characteristics	Great for I/O-bound workloads	Better for CPU-heavy workloads
+________________________________________
+✅ 3. When to Use Which?
+Use Virtual Threads for:
+•	Handling many simultaneous client requests
+•	I/O-heavy workloads (network calls, database calls)
+•	Replacing complex async/reactive frameworks with simple blocking code
+Use Normal Threads for:
+•	CPU-bound tasks (number crunching, parallel processing)
+•	Long-lived OS-dependent operations
+•	When you need strong OS-level control (thread affinity, priorities)
+________________________________________
+✅ 4. Example (Java)
+Normal thread
+Thread t = new Thread(() -> {
+    // work
+});
+t.start();
+Virtual thread
+Thread t = Thread.ofVirtual().start(() -> {
+    // work
+});
+________________________________________
+🔥 Key Insight
+Virtual threads do NOT make tasks faster; they make concurrency cheaper.
+They help you scale to thousands or millions of logically blocking tasks.
+________________________________________
+If you want, I can show a benchmark comparison, how they work internally, or migration tips from normal threads to virtual threads.
+
+Lombok is external libraru coz we doi entry in pom wherase record is feature of java class
+Lombok nec=ver restrict u to add setter unlike record
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
