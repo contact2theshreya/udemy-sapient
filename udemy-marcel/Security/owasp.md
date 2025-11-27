@@ -1,3 +1,254 @@
+Below is a clear and structured explanation of **OWASP Top 10 vulnerabilities** (2021 edition, currently widely used) along with **prevention techniques**.
+This is useful for interviews, secure design, and practical development.
+
+---
+
+# ✅ **OWASP Top 10 Vulnerabilities & Their Prevention**
+
+---
+
+## **1. Broken Access Control**
+
+### **What it is**
+
+When users can access resources or perform actions they shouldn’t (e.g., user accessing admin functions).
+
+### **Examples**
+
+* Changing URL `/user/123` → `/user/124` and accessing another user's data
+* Performing admin actions without admin privileges
+
+### **Prevention**
+
+* Enforce **server-side authorization** for every request
+* Use **role-based access control (RBAC)**
+* Disable access by default (deny-first principle)
+* Do not expose object IDs; use UUIDs
+* Implement rate-limiting and strong session controls
+
+---
+
+## **2. Cryptographic Failures**
+
+(Previously “Sensitive Data Exposure”)
+
+### **What it is**
+
+Weak or missing encryption of sensitive data.
+
+### **Examples**
+
+* Not using HTTPS
+* Storing passwords in plain text
+* Using weak encryption like MD5 or SHA1
+
+### **Prevention**
+
+* Use **HTTPS/TLS 1.2+** everywhere
+* Store passwords using strong hashing: **bcrypt, Argon2, PBKDF2**
+* Encrypt sensitive data at rest (AES-256)
+* Disable outdated protocols (SSL, TLS 1.0)
+
+---
+
+## **3. Injection (SQL, NoSQL, OS, LDAP, etc.)**
+
+### **What it is**
+
+Untrusted data is executed as a command or query.
+
+### **Examples**
+
+* SQL Injection: `' OR 1=1 --`
+* Command Injection: `; rm -rf /`
+
+### **Prevention**
+
+* Use **prepared statements/parameterized queries**
+* Use **ORM frameworks**
+* Validate input using allowlists
+* Escape user input where necessary
+* Implement database least-privilege access
+
+---
+
+## **4. Insecure Design**
+
+### **What it is**
+
+Flaws in system architecture/design before coding begins.
+
+### **Examples**
+
+* No threat modeling
+* No secure design patterns
+* Missing security controls
+
+### **Prevention**
+
+* Apply **STRIDE** or **threat modeling**
+* Use **secure SDLC**
+* Use **design patterns**: rate limiting, encryption, logging, MFA
+* Perform **architectural risk analysis**
+
+---
+
+## **5. Security Misconfiguration**
+
+### **What it is**
+
+Incorrect server, framework, or application configuration.
+
+### **Examples**
+
+* Default credentials (admin/admin)
+* Directory listing enabled
+* Debug mode enabled in prod
+* Open cloud storage buckets
+
+### **Prevention**
+
+* Disable unused features
+* Change default credentials
+* Harden servers and containers
+* Automate security config checks (e.g., DevSecOps)
+
+---
+
+## **6. Vulnerable & Outdated Components**
+
+### **What it is**
+
+Using libraries, frameworks, or packages with known vulnerabilities.
+
+### **Examples**
+
+* Old versions of Log4j (Log4Shell)
+* Using outdated Java Spring versions
+
+### **Prevention**
+
+* Use **dependency checkers** (OWASP Dependency-Check, Snyk, GitHub Alerts)
+* Apply patches regularly
+* Maintain SBOM (Software Bill of Materials)
+* Use minimal dependency versions
+
+---
+
+## **7. Identification & Authentication Failures**
+
+(Previously “Broken Authentication”)
+
+### **What it is**
+
+Weak authentication mechanisms.
+
+### **Examples**
+
+* Missing MFA
+* Predictable session IDs
+* Credential stuffing possible
+
+### **Prevention**
+
+* Implement **MFA**
+* Use **secure session tokens** (HttpOnly, Secure flags)
+* Enforce strong password policy
+* Limit login attempts
+* Use industry-standard protocols (OAuth2, OIDC)
+
+---
+
+## **8. Software & Data Integrity Failures**
+
+### **What it is**
+
+Applications rely on untrusted sources or unverified updates.
+
+### **Examples**
+
+* Using unsigned software updates
+* Using plugins from unknown sources
+* CI/CD pipeline tampering
+
+### **Prevention**
+
+* Use **code signing**
+* Validate integrity using **checksums, hashes**
+* Secure CI/CD pipelines
+* Use trusted registry sources
+
+---
+
+## **9. Security Logging & Monitoring Failures**
+
+### **What it is**
+
+Insufficient logging, or ignored alerts.
+
+### **Examples**
+
+* No logs for failed login attempts
+* Logs stored without protection
+* No monitoring for suspicious activities
+
+### **Prevention**
+
+* Log authentication events, access failures, errors
+* Use SIEM systems (Splunk, ELK, Azure Sentinel)
+* Store logs securely (integrity protection)
+* Monitor real-time alerts
+
+---
+
+## **10. Server-Side Request Forgery (SSRF)**
+
+### **What it is**
+
+Attacker tricks server into making unauthorized internal requests.
+
+### **Examples**
+
+* Uploading a URL that instructs server to call `http://localhost/admin`
+
+### **Prevention**
+
+* Block internal/metadata IP ranges
+* Allowlist outbound destinations
+* Validate and sanitize user inputs
+* Use network segmentation
+
+---
+
+# ⭐ Summary Table (Quick Revision)
+
+| OWASP Vulnerability       | Simple Explanation         | Prevention                |
+| ------------------------- | -------------------------- | ------------------------- |
+| Broken Access Control     | Unauthorized access        | RBAC, server-side checks  |
+| Cryptographic Failures    | Weak/no encryption         | TLS, hashing, AES         |
+| Injection                 | Malicious commands         | Prepared statements       |
+| Insecure Design           | Poor security architecture | Secure SDLC               |
+| Security Misconfiguration | Incorrect settings         | Hardening, DevSecOps      |
+| Outdated Components       | Vulnerable libraries       | Patch, dependency scans   |
+| Auth Failures             | Weak login/session         | MFA, secure sessions      |
+| Integrity Failures        | Untrusted updates          | Code signing              |
+| Logging Failures          | Missed attacks             | SIEM, secure logs         |
+| SSRF                      | Server forced requests     | IP blocklists, validation |
+
+---
+
+If you want, I can also provide:
+
+✅ A diagram explaining each
+✅ Example code for prevention (Java, Spring Boot, Python, Node.js)
+✅ Real-world interview answers
+✅ Cheat sheet PDF
+
+Would you like those?
+
+
+
+
 Below is a **clear, developer-friendly guide** on how to **prevent the OWASP Top 10 vulnerabilities** when building a **Spring Boot backend** + **React frontend**.
 
 ---
