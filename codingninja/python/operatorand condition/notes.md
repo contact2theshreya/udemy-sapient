@@ -46,3 +46,20 @@ else:
     # if the code comes here then it means the number is odd...
     print("The given number is odd")
 
+marks = int(input())
+
+if marks >= 90 and marks <= 100:
+
+    print("A")
+    
+elif marks >= 80 and marks <= 89:
+
+    print("B")
+    
+elif marks >= 70 and marks <= 79:
+
+    print("C")
+    
+else:
+
+    print("D")
