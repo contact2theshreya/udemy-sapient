@@ -2,3 +2,15 @@
 
 <img width="647" height="340" alt="image" src="https://github.com/user-attachments/assets/13531a00-4021-45c7-bf24-ef874f6d2e39" />
 
+# Bitwise operator
+
+<img width="465" height="323" alt="image" src="https://github.com/user-attachments/assets/2835b506-1585-42a9-bad0-1d4a61a9a1cb" />
+
+<img width="458" height="315" alt="image" src="https://github.com/user-attachments/assets/449a2328-c43d-46db-a8cb-41a3189835ae" />
+
+
+<img width="555" height="268" alt="image" src="https://github.com/user-attachments/assets/f42312fe-3302-40a2-a915-ad70875c6130" />
+
+<img width="470" height="306" alt="image" src="https://github.com/user-attachments/assets/5cdf8173-a0b7-43fc-a084-59dcdcb73f9c" />
+
+
