@@ -13,4 +13,11 @@
 
 <img width="470" height="306" alt="image" src="https://github.com/user-attachments/assets/5cdf8173-a0b7-43fc-a084-59dcdcb73f9c" />
 
+# precedence
+
+<img width="377" height="327" alt="image" src="https://github.com/user-attachments/assets/07c95b8b-e498-4229-8672-74653f8f6d05" />
+
+Associativity means if all are same level operator then start solving expression from left like this
+
+<img width="568" height="319" alt="image" src="https://github.com/user-attachments/assets/54794d46-714e-42ce-99bb-5907e11e7d66" />
 
