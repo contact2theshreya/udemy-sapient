@@ -21,3 +21,11 @@ Associativity means if all are same level operator then start solving expression
 
 <img width="568" height="319" alt="image" src="https://github.com/user-attachments/assets/54794d46-714e-42ce-99bb-5907e11e7d66" />
 
+## conditional operator
+
+<img width="385" height="169" alt="image" src="https://github.com/user-attachments/assets/1e72e539-9275-487f-8137-41458e57d566" />
+
+Indentation is important in if condition where space is added in next lines to indicate iyt is a part of sma eif statement
+
+
+
