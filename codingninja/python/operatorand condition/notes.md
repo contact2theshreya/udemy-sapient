@@ -27,5 +27,22 @@ Associativity means if all are same level operator then start solving expression
 
 Indentation is important in if condition where space is added in next lines to indicate iyt is a part of sma eif statement
 
+print("Starting the program")
+if 10 > 2 :
+    print("we are inside if conditional")
+    print("Indentation is cool")
+    print("Having fun with if conditionals")
 
+print("end")
+
+
+x = int(input())
+if x % 2 == 0:
+    # this is a block of if
+    # if the code comes here then it means the number is even...
+    print("The given number is even")
+else:
+    # this is a block of else
+    # if the code comes here then it means the number is odd...
+    print("The given number is odd")
 
