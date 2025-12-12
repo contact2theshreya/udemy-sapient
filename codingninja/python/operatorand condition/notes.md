@@ -63,3 +63,18 @@ elif marks >= 70 and marks <= 79:
 else:
 
     print("D")
+
+<img width="291" height="301" alt="image" src="https://github.com/user-attachments/assets/694ee8b9-2126-4acd-943b-287c64f4c32a" />
+
+x = 22
+
+match x:
+    case 1:
+        print("Value of x is")
+        print("1")
+    case 2:
+        print("Value of x is")
+        print("2")
+    case 3:
+        print("Value of x is")
+        print("3")
