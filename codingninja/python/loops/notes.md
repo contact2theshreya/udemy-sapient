@@ -23,6 +23,9 @@ print(s)
 
 # sum of even number
 
+<img width="637" height="415" alt="image" src="https://github.com/user-attachments/assets/28870284-2833-43a2-a087-54b7fe7a4205" />
+
+
 N =int(input())
 s=0
 i=2
