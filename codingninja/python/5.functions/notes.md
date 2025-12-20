@@ -27,3 +27,5 @@ calculate_square(9)
 calculate_square(8)
 
 calculate_square(18)
+
+<img width="530" height="375" alt="image" src="https://github.com/user-attachments/assets/58274e3d-3f06-4ab0-a9c6-91bb2d10fba3" />
