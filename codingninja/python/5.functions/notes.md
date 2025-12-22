@@ -66,3 +66,19 @@ if(result == True):
 else:
 
     print("It is not a prime")
+
+# nested function
+
+<img width="541" height="270" alt="image" src="https://github.com/user-attachments/assets/dd7c8e73-b216-4e48-b3ee-20370bd354ba" />
+
+# scope 
+
+<img width="497" height="232" alt="image" src="https://github.com/user-attachments/assets/1eaa34d7-2f98-4bf8-952a-b7fb54bcfe48" />
+
+Here we can not update global price variable inside function as it will be treated as local variable
+
+<img width="350" height="196" alt="image" src="https://github.com/user-attachments/assets/4a26dde1-8cd6-4a74-a191-85ed0b875756" />
+
+but with this we can update using global keyword
+
+<img width="427" height="259" alt="image" src="https://github.com/user-attachments/assets/505f1823-4774-4ced-99e4-a3179356e705" />
