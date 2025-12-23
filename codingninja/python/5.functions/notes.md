@@ -82,3 +82,22 @@ Here we can not update global price variable inside function as it will be treat
 but with this we can update using global keyword
 
 <img width="427" height="259" alt="image" src="https://github.com/user-attachments/assets/505f1823-4774-4ced-99e4-a3179356e705" />
+
+<img width="941" height="383" alt="image" src="https://github.com/user-attachments/assets/3e82871f-5cb0-42de-9edc-c2f5f2ef64da" />
+
+<img width="959" height="445" alt="image" src="https://github.com/user-attachments/assets/d20cc587-9094-401a-b48a-16e75bc98abf" />
+
+
+<img width="953" height="433" alt="image" src="https://github.com/user-attachments/assets/e57eb1ed-5487-465c-86a0-8553526e88c7" />
+
+# default param
+
+<img width="959" height="410" alt="image" src="https://github.com/user-attachments/assets/474494da-d9a3-4a30-a41a-50e88003ea12" />
+
+default param should be at end in order
+
+<img width="958" height="398" alt="image" src="https://github.com/user-attachments/assets/8f46457a-acdc-4bef-829c-ab09ff157136" />
+
+<img width="607" height="263" alt="image" src="https://github.com/user-attachments/assets/a43540ca-b0a7-4560-bef1-0099d84e7f6d" />
+
+<img width="959" height="400" alt="image" src="https://github.com/user-attachments/assets/3b1c65ba-6c76-454e-88c5-a1925db4ceca" />
