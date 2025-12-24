@@ -101,3 +101,55 @@ default param should be at end in order
 <img width="607" height="263" alt="image" src="https://github.com/user-attachments/assets/a43540ca-b0a7-4560-bef1-0099d84e7f6d" />
 
 <img width="959" height="400" alt="image" src="https://github.com/user-attachments/assets/3b1c65ba-6c76-454e-88c5-a1925db4ceca" />
+
+# Variable arg(any no of argf)
+
+kwargs-pass input value as key value pair unlike args,**kwargs,*args
+
+<img width="583" height="299" alt="image" src="https://github.com/user-attachments/assets/f968c509-6627-4b6d-96a6-3d811c78a9a1" />
+
+# check paloindrome
+
+def reverse_of_number(num):
+    res = 0
+    pow_of_10 = 1 # 10^0
+    while num > 0:
+        x = num % 10 # last digit
+        res = res * 10 + x
+        num = num // 10
+    return res
+
+def check_palindrome(num):
+    reverse = reverse_of_number(num)
+    return reverse == num
+
+check_palindrome(3)
+
+# Armstrong number
+
+Sum should be equal to orig numbet
+
+<img width="485" height="297" alt="image" src="https://github.com/user-attachments/assets/ad0a4aa7-4c58-426e-a0ec-690a9f3d01b0" />
+
+<img width="863" height="382" alt="image" src="https://github.com/user-attachments/assets/ddb9296e-2c75-4e00-ae04-6d4279109d45" />
+
+# Inbuilt function
+
+
+print("this is some text")
+
+x = int(input())
+
+max(5,4,0,9,8,1,4,34,-8)
+
+min(0, 5, 3, -8, 7, 86)
+
+pow(3, 4)
+
+round(7.5)
+
+entrypoint is main in python like java
+
+<img width="457" height="187" alt="image" src="https://github.com/user-attachments/assets/e5aba9bb-5dfd-497a-9c93-d954aeae1288" />
+
+
