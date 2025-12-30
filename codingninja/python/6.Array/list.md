@@ -15,3 +15,20 @@
 <img width="268" height="137" alt="image" src="https://github.com/user-attachments/assets/9700adad-e324-4f4f-9b7d-dbced7d1dd3c" />
 
 <img width="547" height="349" alt="image" src="https://github.com/user-attachments/assets/77b3497a-e70b-45c0-91af-77acde5e8b78" />
+
+<img width="560" height="275" alt="image" src="https://github.com/user-attachments/assets/6d4202f4-ace9-4588-9124-cde5240b35cb" />
+
+<img width="683" height="350" alt="image" src="https://github.com/user-attachments/assets/7fd6217e-0497-4ea7-8982-dc632cdb96f3" />
+
+# swap alternate pair
+
+<img width="245" height="169" alt="image" src="https://github.com/user-attachments/assets/ee67cd81-14e5-4de2-a0f3-5b5d0eec45ad" />
+
+# rearrange no
+
+all even should come first then odd will come at last
+
+use pointer to arrange inplace
+
+<img width="839" height="347" alt="image" src="https://github.com/user-attachments/assets/5cf8679b-9bfc-4c2a-a3a5-4d69c8ca0219" />
+
