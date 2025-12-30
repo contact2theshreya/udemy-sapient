@@ -32,3 +32,149 @@ use pointer to arrange inplace
 
 <img width="839" height="347" alt="image" src="https://github.com/user-attachments/assets/5cf8679b-9bfc-4c2a-a3a5-4d69c8ca0219" />
 
+<img width="713" height="428" alt="image" src="https://github.com/user-attachments/assets/4bca3d02-2581-4a01-bdb6-0538f0ed24a3" />
+
+# count pair sum
+
+<img width="921" height="425" alt="image" src="https://github.com/user-attachments/assets/8f5fc937-ab9c-441c-b3a1-8d71d99e331b" />
+
+# triiplet sum
+
+Below is the **Triplet Sum using only `for` loops**, explained **step-by-step for a beginner**.
+
+---
+
+## 🔹 Problem (Triplet Sum)
+
+Given an array `ARR` of size `N` and a value `X`,
+find the **number of triplets** `(i, j, k)` such that:
+
+```
+ARR[i] + ARR[j] + ARR[k] == X
+```
+
+and
+
+```
+i < j < k
+```
+
+---
+
+## ✅ Solution Using **Only `for` Loops** (Brute Force)
+
+```python
+def tripletSum(arr, n, x):
+    count = 0
+
+    for i in range(n):
+        for j in range(i + 1, n):
+            for k in range(j + 1, n):
+                if arr[i] + arr[j] + arr[k] == x:
+                    count += 1
+
+    return count
+```
+
+---
+
+## 🔍 Explanation (Beginner Friendly)
+
+### Why **three for loops**?
+
+Because:
+
+* We need **3 different elements**
+* Every possible combination must be checked
+
+---
+
+### Loop Structure
+
+```python
+for i in range(n):          # first element
+    for j in range(i+1, n):# second element
+        for k in range(j+1, n): # third element
+```
+
+✔ Ensures `i < j < k`
+✔ No duplicate triplets
+✔ No same element used twice
+
+---
+
+## 🔹 Example Dry Run
+
+```python
+arr = [1, 2, 3, 4, 5]
+x = 9
+```
+
+Valid triplets:
+
+```
+(1,3,5) → 1+3+5 = 9
+(2,3,4) → 2+3+4 = 9
+```
+
+✅ Output:
+
+```
+2
+```
+
+---
+
+## ⏱ Complexity
+
+| Type  | Value     |
+| ----- | --------- |
+| Time  | **O(N³)** |
+| Space | **O(1)**  |
+
+---
+
+## ❌ Common Beginner Mistakes
+
+### ❌ Wrong loop start
+
+```python
+for j in range(n):  # WRONG
+```
+
+✔ Should start from `i+1`
+
+---
+
+### ❌ Reusing same index
+
+```python
+if arr[i] + arr[i] + arr[k] == x  # WRONG
+```
+
+---
+
+## 🧠 When is this approach acceptable?
+
+✔ Small constraints
+✔ Learning basics
+✔ Coding interviews (first solution)
+
+---
+
+## ⭐ Interview Tip
+
+> Always start with brute force using loops,
+> then mention optimized approach if asked.
+
+---
+
+If you want next:
+
+* Optimized **O(N²)** approach
+* Handling **duplicate elements**
+* Triplet sum in **sorted array**
+* Java / C++ version
+
+Just tell me 👍
+
