@@ -168,3 +168,23 @@ Because memory is **contiguous row-wise**.
 <img width="659" height="356" alt="image" src="https://github.com/user-attachments/assets/c110b121-189a-4a54-8728-8b52df17893b" />
 
 python by default uses row major to store matrix in memory
+
+## jagged list(diff no of columns per row)
+
+<img width="474" height="205" alt="image" src="https://github.com/user-attachments/assets/20f7e531-e21d-4756-b832-1082b4557974" />
+
+<img width="479" height="237" alt="image" src="https://github.com/user-attachments/assets/a4bacf31-7bab-4a2b-b4f4-280a354220c0" />
+
+<img width="494" height="134" alt="image" src="https://github.com/user-attachments/assets/4bca8eab-8b7f-41ef-804b-83b33fc28089" />
+
+<img width="496" height="147" alt="image" src="https://github.com/user-attachments/assets/4afb00f7-6e95-45a2-86e0-76b6ef1296fb" />
+
+<img width="527" height="158" alt="image" src="https://github.com/user-attachments/assets/a2ae55f7-867a-412e-a468-c1bb52d467e8" />
+
+<img width="959" height="428" alt="image" src="https://github.com/user-attachments/assets/9a160824-93ab-4088-b4ad-648bd35d1714" />
+
+# find row with max no of 1
+
+<img width="947" height="427" alt="image" src="https://github.com/user-attachments/assets/5e012727-aee8-4f36-acc8-4cfe7ab56ee0" />
+
+<img width="528" height="276" alt="image" src="https://github.com/user-attachments/assets/b0a795d7-193e-4f3b-84eb-126afd5ab2d5" />
