@@ -209,3 +209,30 @@ LLM has access of all internet data  and break  sentences into tokens and will l
 <img width="475" height="324" alt="image" src="https://github.com/user-attachments/assets/6043f9b7-1c7b-4a0e-a971-7f736e98dab7" />
 
 hugging face-website with all open source moal
+
+# Practical
+
+Google AI studio is free and craete api key to use gemini modal
+
+create new project and api key - 
+
+https://aistudio.google.com/api-keys
+AIzaSyBzm823lqhjdusPuM_YTk9fZtq7OxwL1DM
+
+https://aistudio.google.com/prompts/new_chat
+
+AI is the broad field of creating intelligent machines, while Generative AI (GenAI) is a specific, advanced type of AI focused on creating new, original content (text, images, code, etc.) from patterns learned in massive datasets, whereas traditional AI typically analyzes, classifies, and predicts based on existing data. Think of traditional AI as analytical (fraud detection, recommendations), while GenAI is creative (writing stories, designing art). 
+Traditional AI (Analytical/Predictive)
+Goal: Analyze, classify, predict, or automate based on existing data.
+Tasks: Spam filtering, fraud detection, recommendation engines, diagnosing diseases, robotic assembly.
+Output: A specific decision, label, or prediction (e.g., "fraudulent," "item X recommended").
+Learning: Often uses supervised learning (labeled data) or unsupervised learning to find patterns. 
+Generative AI (Creative/Synthetic)
+Goal: Create novel, human-like content that didn't exist before.
+Tasks: Writing articles, generating images, composing music, creating code, summarizing documents.
+Output: New text, images, audio, or code in response to a prompt.
+Learning: Uses deep learning models (like transformers) trained on vast amounts of data to learn complex patterns. 
+Key Differences Summarized
+Function: Traditional AI analyzes; GenAI creates.
+Output: Traditional AI gives predictions/classifications; GenAI gives new content.
+Application: Traditional AI excels at structured tasks; GenAI excels at creative & complex tasks. 
