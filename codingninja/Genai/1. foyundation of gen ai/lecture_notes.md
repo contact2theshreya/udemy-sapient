@@ -403,3 +403,70 @@ If you want next, I can explain:
 
 Just tell me 😊
 
+prep data means convt in numerical form, param tuning is 
+
+Parameter tuning (also called hyperparameter tuning) is the process of choosing the best values for parameters that control how a model or algorithm behaves, so that it gives the best performance.
+
+First, understand: Parameter vs Hyperparameter
+1️⃣ Parameters
+
+Learned automatically by the model
+
+Change during training
+
+Example:
+
+Weights in Linear Regression
+
+Coefficients in Logistic Regression
+
+👉 You don’t set these manually.
+
+2️⃣ Hyperparameters (what we tune)
+
+Set before training
+
+Control how the model learns
+
+Examples:
+
+Learning rate
+
+Number of epochs
+
+Depth of a tree
+
+Number of neighbors in KNN
+
+👉 Parameter tuning = finding the best hyperparameter values
+
+Simple Analogy (Very Important 💡)
+
+🎯 Cooking analogy
+
+Recipe = Algorithm
+
+Ingredients = Data
+
+Stove temperature = Hyperparameter
+
+If temperature is:
+
+Too low → food undercooked
+
+Too high → food burnt
+
+👉 Finding the right temperature = parameter tuning
+
+## derp learning
+
+if with only 1 state there is 50-50 chance of correct output then u compara loss output , evaluated and add more hidden state ex after u taste,smell u get better 100% result
+
+
+
+<img width="647" height="338" alt="image" src="https://github.com/user-attachments/assets/7e4844a4-829e-40b9-a5ab-3d0feefd6260" />
+
+AI-reasobning,take steps
+<img width="644" height="332" alt="image" src="https://github.com/user-attachments/assets/5efd98be-c3c7-44b0-9521-2b2b030613bf" />
+
+GENc AI has access to all internet data and company like openai,gemini they trained modal using all of internets data
