@@ -202,3 +202,10 @@ In short:
 AI is the broad field, ML and DL are its subsets, and GenAI is a modern approach that generates new content, with both exciting benefits and important challenges
 Just tell me 👍
 
+TOP P - cut /sample words based on probablity
+
+LLM has access of all internet data  and break  sentences into tokens and will look or sample words based on the probablity
+
+<img width="475" height="324" alt="image" src="https://github.com/user-attachments/assets/6043f9b7-1c7b-4a0e-a971-7f736e98dab7" />
+
+hugging face-website with all open source moal
