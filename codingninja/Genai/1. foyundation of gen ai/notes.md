@@ -217,7 +217,7 @@ Google AI studio is free and craete api key to use gemini modal
 create new project and api key - 
 
 https://aistudio.google.com/api-keys
-AIzaSyBzm823lqhjdusPuM_YTk9fZtq7OxwL1DM
+
 
 https://aistudio.google.com/prompts/new_chat
 
